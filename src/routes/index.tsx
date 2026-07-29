@@ -27,8 +27,6 @@ function HomePage() {
             <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
               A little paper joy, once a month
             </h1>
-              A little paper joy, once a month
-            </h1>
             <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
               The Monthly Letter is a friendly, handwritten-style letter sent to your door. Each month brings a new story, a thoughtful reflection, and a sense of connection — delivered by post, read at your own pace.
             </p>
