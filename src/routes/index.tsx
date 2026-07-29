@@ -56,12 +56,44 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
-            Three simple steps
-          </h2>
+      {/* What's inside */}
+      <section className="bg-muted py-16 md:py-24">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
+              What is inside the envelope?
+            </h2>
+            <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
+              Inspired by the joy of a real letter in the post, each monthly envelope holds a little bundle of paper goodness — designed to be read, kept, and enjoyed.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <FeatureCard
+              icon={<FileText className="text-primary" aria-hidden="true" />}
+              title="A heartfelt letter"
+              description="A warm, personal letter on a new theme each month — memory, place, nature, and small everyday joys."
+            />
+            <FeatureCard
+              icon={<Image className="text-primary" aria-hidden="true" />}
+              title="A seasonal illustration"
+              description="A small printed artwork to tuck inside a book, pin to a noticeboard, or share with a friend."
+            />
+            <FeatureCard
+              icon={<Gift className="text-primary" aria-hidden="true" />}
+              title="A paper extra"
+              description="A thoughtful surprise: a bookmark, a mini print, a note card, or a simple stationery activity."
+            />
+            <FeatureCard
+              icon={<Utensils className="text-primary" aria-hidden="true" />}
+              title="A recipe or idea"
+              description="A seasonal recipe, a gentle prompt, or a short list of things to try, read, or share."
+            />
+          </div>
         </div>
+      </section>
+
+      {/* How it works preview */}
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           <StepCard
             number="1"
