@@ -34,7 +34,6 @@ function JoinPage() {
           description="Perfect if you want to try it out first."
           features={[
             "One letter every month",
-            "Posted by Royal Mail",
             "Cancel anytime",
             "Readable, large-print design",
           ]}
@@ -43,15 +42,14 @@ function JoinPage() {
         />
         <PricingCard
           name="Yearly"
-          price="AUD $120"
+          price="AUD $140"
           period="per year"
-          description="Save $48 over the year and one less thing to remember."
+          description="Save $28 over the year and one less thing to remember."
           features={[
             "One letter every month",
-            "Posted by Royal Mail",
             "Pause or cancel anytime",
             "Readable, large-print design",
-            "Save $48 over the year",
+            "Save $28 over the year",
           ]}
           cta="Subscribe yearly"
           highlighted={true}
