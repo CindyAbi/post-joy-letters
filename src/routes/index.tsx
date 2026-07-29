@@ -56,44 +56,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* What it is */}
-      <section className="bg-muted py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
-              Not a magazine. Not a bill. Just a letter.
-            </h2>
-            <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-              In a world of screens and notifications, there is something special about finding a real letter on your doormat. We write each month's letter like a note to a good friend — warm, unhurried, and full of small discoveries.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            <FeatureCard
-              icon={<BookOpen className="text-primary" aria-hidden="true" />}
-              title="A good read"
-              description="A new theme every month: history, nature, memory, place, and simple everyday joys."
-            />
-            <FeatureCard
-              icon={<Mail className="text-primary" aria-hidden="true" />}
-              title="Through your letterbox"
-              description="Printed on quality paper, sealed in an envelope, and posted to arrive at home."
-            />
-            <FeatureCard
-              icon={<Calendar className="text-primary" aria-hidden="true" />}
-              title="Once a month"
-              description="A gentle rhythm you can count on. No daily emails, no apps to check."
-            />
-            <FeatureCard
-              icon={<Heart className="text-primary" aria-hidden="true" />}
-              title="Made with care"
-              description="Written with older readers in mind: clear type, generous spacing, and a friendly tone."
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* How it works preview */}
       <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
