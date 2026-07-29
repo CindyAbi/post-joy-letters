@@ -29,7 +29,7 @@ function JoinPage() {
       <div className="mt-16 grid gap-8 md:grid-cols-2">
         <PricingCard
           name="Monthly"
-          price="£8"
+          price="AUD $14"
           period="per month"
           description="Perfect if you want to try it out first."
           features={[
@@ -43,15 +43,15 @@ function JoinPage() {
         />
         <PricingCard
           name="Yearly"
-          price="£80"
+          price="AUD $120"
           period="per year"
-          description="Two months free and one less thing to remember."
+          description="Save $48 over the year and one less thing to remember."
           features={[
             "One letter every month",
             "Posted by Royal Mail",
             "Pause or cancel anytime",
             "Readable, large-print design",
-            "Save £16 over the year",
+            "Save $48 over the year",
           ]}
           cta="Subscribe yearly"
           highlighted={true}
