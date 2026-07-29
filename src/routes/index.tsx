@@ -24,10 +24,7 @@ function HomePage() {
       <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="order-2 lg:order-1">
-            <p className="text-lg font-semibold uppercase tracking-wider text-primary">
-              For readers over 60
-            </p>
-            <h1 className="mt-4 font-heading text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
+            <h1 className="font-heading text-4xl font-bold text-foreground md:text-5xl lg:text-6xl">
               A little paper joy, once a month
             </h1>
             <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
