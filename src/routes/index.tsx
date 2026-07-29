@@ -94,6 +94,12 @@ function HomePage() {
       </section>
 
       {/* How it works preview */}
+      <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl">
+            Three simple steps
+          </h2>
+        </div>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           <StepCard
             number="1"
