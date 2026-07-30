@@ -6,9 +6,9 @@ export const Route = createFileRoute("/join")({
   head: () => ({
     meta: [
       { title: "Join — The Monthly Letter" },
-      { name: "description", content: "Choose a monthly or yearly subscription to The Monthly Letter. A friendly letter delivered to your door every month for readers over 60." },
+      { name: "description", content: "Choose a monthly, 6-month, or yearly subscription to The Monthly Letter. A friendly letter delivered to your door every month." },
       { property: "og:title", content: "Join — The Monthly Letter" },
-      { property: "og:description", content: "Choose a monthly or yearly subscription to The Monthly Letter. A friendly letter delivered to your door every month for readers over 60." },
+      { property: "og:description", content: "Choose a monthly, 6-month, or yearly subscription to The Monthly Letter. A friendly letter delivered to your door every month." },
     ],
   }),
   component: JoinPage,
