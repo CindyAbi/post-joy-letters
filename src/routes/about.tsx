@@ -21,7 +21,7 @@ function AboutPage() {
           About The Monthly Letter
         </h1>
         <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          We believe a good letter is one of life's simple pleasures. Our mission is to bring that pleasure back to the people who appreciate it most.
+          Our hearts are set on spreading community, creativity, and connection by inspiring you to jump into new creative activities and discover artistic expression in ways you never expected. This journey is truly about deepening our contact with one another—becoming more aware, mindful, and deeply caring of the people surrounding us, from close family and lifelong friends to everyday strangers. By fostering these bonds, we help our community transition away from a digital-heavy world and step into meaningful, physical spaces. The reason behind creating the joyful mail is to tie it all together, providing our subscribers with a beautiful, tangible, creative artifact to look forward to in their mailboxes each month.
         </p>
       </div>
 
