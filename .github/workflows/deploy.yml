@@ -32,9 +32,11 @@ jobs:
         run: npm install
 
       - name: Build project
+        env:
+          CI: false # Bypasses all strict TypeScript and styling warning errors
         run: |
           mkdir -p dist
-          npm run build || true
+          npm run build
           echo "joyfulmail.org" > dist/CNAME
 
       - name: Upload artifact
