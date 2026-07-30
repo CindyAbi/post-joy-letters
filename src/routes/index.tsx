@@ -73,7 +73,7 @@ function HomePage() {
             />
             <FeatureCard
               icon={<Image className="text-primary" aria-hidden="true" />}
-              title="A seasonal illustration"
+              title="An original art print"
               description="A small printed artwork to tuck inside a book, pin to a noticeboard, or share with a friend."
             />
             <FeatureCard
