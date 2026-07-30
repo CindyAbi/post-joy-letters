@@ -21,7 +21,13 @@ function AboutPage() {
           About The Monthly Letter
         </h1>
         <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          Our hearts are set on spreading community, creativity, and connection by inspiring you to jump into new creative activities and discover artistic expression in ways you never expected. This journey is truly about deepening our contact with one another—becoming more aware, mindful, and deeply caring of the people surrounding us, from close family and lifelong friends to everyday strangers. By fostering these bonds, we help our community transition away from a digital-heavy world and step into meaningful, physical spaces. The reason behind creating the joyful mail is to tie it all together, providing our subscribers with a beautiful, tangible, creative artifact to look forward to in their mailboxes each month.
+          I created Joyful Mail to bring my personal mission to life: building community, sparking creativity, and cultivating genuine human connection.
+        </p>
+        <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
+          This journey is truly about deepening our relationships—becoming more mindful and deeply caring of the people around us, from close family and friends to everyday strangers. My heart is set on inspiring you to explore new creative activities and discover artistic expression in ways you never expected.
+        </p>
+        <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
+          By nurturing these bonds, we help our community step away from a digital-heavy world and move into meaningful, physical spaces. My hope is that Joyful Mail can bring joy to your mailbox each month, delivering a tangible little surprise as well as an original artistic creation you can truly look forward to.
         </p>
       </div>
 
@@ -46,10 +52,9 @@ function AboutPage() {
 
         <AboutBlock
           icon={<Leaf className="text-primary" aria-hidden="true" />}
-          title="Made gently"
+          title="Made with love"
           paragraphs={[
-            "We print on recycled paper where possible, use minimal packaging, and keep deliveries simple—no couriers, no plastic, no fuss.",
-            "Our letters are produced in small batches so we can keep the quality high and the waste low.",
+            "Each envelope is put together by hand, with care, attention, and a genuine wish to brighten your day.",
           ]}
         />
       </div>
