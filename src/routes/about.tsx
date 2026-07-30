@@ -36,11 +36,11 @@ function AboutPage() {
         />
 
         <AboutBlock
-          icon={<Users className="text-primary" aria-hidden="true" />}
-          title="Written for readers over 60"
+          icon={<Heart className="text-primary" aria-hidden="true" />}
+          title="Community, creativity, and connection"
           paragraphs={[
-            "We choose our words carefully and design our pages with readability in mind. That means clear type, generous spacing, and a warm tone that never talks down.",
-            "Each letter is self-contained, so you can dip in without needing to follow a thread online. It is a complete little reading experience, from greeting to sign-off.",
+            "Each letter is an invitation to slow down, make something with your hands, and see the world a little more closely. We share prompts and ideas that nudge you toward creative activities you may never have tried.",
+            "At the same time, we want every envelope to strengthen bonds—with family, friends, neighbours, and even the stranger you smile at on the footpath. Small acts of care ripple outward.",
           ]}
         />
 
@@ -48,7 +48,7 @@ function AboutPage() {
           icon={<Leaf className="text-primary" aria-hidden="true" />}
           title="Made gently"
           paragraphs={[
-            "We print on recycled paper where possible, use minimal packaging, and post through Royal Mail — no couriers, no plastic, no fuss.",
+            "We print on recycled paper where possible, use minimal packaging, and keep deliveries simple—no couriers, no plastic, no fuss.",
             "Our letters are produced in small batches so we can keep the quality high and the waste low.",
           ]}
         />
