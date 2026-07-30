@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { PenLine, Users, Leaf } from "lucide-react";
+import { PenLine, Heart, Leaf } from "lucide-react";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
