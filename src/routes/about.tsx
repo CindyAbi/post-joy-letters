@@ -5,9 +5,9 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — The Monthly Letter" },
-      { name: "description", content: "Why we started The Monthly Letter: a simple, friendly letter by post for readers over 60." },
+      { name: "description", content: "Why we started The Monthly Letter: a simple, friendly letter by post, filled with community, creativity, and connection." },
       { property: "og:title", content: "About — The Monthly Letter" },
-      { property: "og:description", content: "Why we started The Monthly Letter: a simple, friendly letter by post for readers over 60." },
+      { property: "og:description", content: "Why we started The Monthly Letter: a simple, friendly letter by post, filled with community, creativity, and connection." },
     ],
   }),
   component: AboutPage,
