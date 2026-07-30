@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { PenLine, Users, Leaf } from "lucide-react";
+import { PenLine, Heart, Leaf } from "lucide-react";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — The Monthly Letter" },
-      { name: "description", content: "Why we started The Monthly Letter: a simple, friendly letter by post for readers over 60." },
+      { name: "description", content: "Why we started The Monthly Letter: a simple, friendly letter by post, filled with community, creativity, and connection." },
       { property: "og:title", content: "About — The Monthly Letter" },
-      { property: "og:description", content: "Why we started The Monthly Letter: a simple, friendly letter by post for readers over 60." },
+      { property: "og:description", content: "Why we started The Monthly Letter: a simple, friendly letter by post, filled with community, creativity, and connection." },
     ],
   }),
   component: AboutPage,
@@ -21,7 +21,7 @@ function AboutPage() {
           About The Monthly Letter
         </h1>
         <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          We believe a good letter is one of life's simple pleasures. Our mission is to bring that pleasure back to the people who appreciate it most.
+          Our hearts are set on spreading community, creativity, and connection by inspiring you to jump into new creative activities and discover artistic expression in ways you never expected. This journey is truly about deepening our contact with one another—becoming more aware, mindful, and deeply caring of the people surrounding us, from close family and lifelong friends to everyday strangers. By fostering these bonds, we help our community transition away from a digital-heavy world and step into meaningful, physical spaces. The reason behind creating the joyful mail is to tie it all together, providing our subscribers with a beautiful, tangible, creative artifact to look forward to in their mailboxes each month.
         </p>
       </div>
 
@@ -36,11 +36,11 @@ function AboutPage() {
         />
 
         <AboutBlock
-          icon={<Users className="text-primary" aria-hidden="true" />}
-          title="Written for readers over 60"
+          icon={<Heart className="text-primary" aria-hidden="true" />}
+          title="Community, creativity, and connection"
           paragraphs={[
-            "We choose our words carefully and design our pages with readability in mind. That means clear type, generous spacing, and a warm tone that never talks down.",
-            "Each letter is self-contained, so you can dip in without needing to follow a thread online. It is a complete little reading experience, from greeting to sign-off.",
+            "Each letter is an invitation to slow down, make something with your hands, and see the world a little more closely. We share prompts and ideas that nudge you toward creative activities you may never have tried.",
+            "At the same time, we want every envelope to strengthen bonds—with family, friends, neighbours, and even the stranger you smile at on the footpath. Small acts of care ripple outward.",
           ]}
         />
 
@@ -48,7 +48,7 @@ function AboutPage() {
           icon={<Leaf className="text-primary" aria-hidden="true" />}
           title="Made gently"
           paragraphs={[
-            "We print on recycled paper where possible, use minimal packaging, and post through Royal Mail — no couriers, no plastic, no fuss.",
+            "We print on recycled paper where possible, use minimal packaging, and keep deliveries simple—no couriers, no plastic, no fuss.",
             "Our letters are produced in small batches so we can keep the quality high and the waste low.",
           ]}
         />
