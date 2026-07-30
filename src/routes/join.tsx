@@ -26,7 +26,7 @@ function JoinPage() {
         </p>
       </div>
 
-      <div className="mt-16 grid gap-8 md:grid-cols-2">
+      <div className="mt-16 grid gap-8 md:grid-cols-3">
         <PricingCard
           name="Monthly"
           price="AUD $14"
@@ -38,6 +38,20 @@ function JoinPage() {
             "Readable, large-print design",
           ]}
           cta="Subscribe monthly"
+          highlighted={false}
+        />
+        <PricingCard
+          name="6 months"
+          price="AUD $70"
+          period="per 6 months"
+          description="A good middle ground — save $14 over six months."
+          features={[
+            "One letter every month",
+            "Pause or cancel anytime",
+            "Readable, large-print design",
+            "Save $14 over 6 months",
+          ]}
+          cta="Subscribe for 6 months"
           highlighted={false}
         />
         <PricingCard
