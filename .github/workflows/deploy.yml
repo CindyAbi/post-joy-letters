@@ -34,8 +34,6 @@ jobs:
        - name: Build Application
         run: |
           npm run build
-          # This copies your main entry file into a 404 fallback file
-          cp dist/client/index.html dist/client/404.html || true
 
       - name: Debug Output Folders
         run: |
