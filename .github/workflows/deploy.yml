@@ -41,8 +41,7 @@ jobs:
           fi
           npm run build
           echo "joyfulmail.org" > dist/CNAME
-
-      name: Upload Build Artifacts
+      - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.output/public'
