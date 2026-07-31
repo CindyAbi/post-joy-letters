@@ -44,8 +44,8 @@ jobs:
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist' # We will check the log if this folder errors out again
-
+          path: '.output/public'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
