@@ -4,18 +4,19 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
-// https://vitejs.dev
 export default defineConfig({
   plugins: [
     tailwindcss(),
     tanstackStart({
-      spa: true // <-- ADD THIS OPTION RIGHT HERE!
+      deployment: {
+        preset: "static" // <-- Pass an object defining static output
+      }
     }),
     react(),
   ],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(import.meta.dirname, "./src"), // Fixes the __dirname deprecation warning!
     },
   },
 });
