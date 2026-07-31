@@ -6,9 +6,12 @@ import path from "path";
 // https://vitejs.dev
 export default defineConfig({
   plugins: [
-    tanstackStart(), // CRITICAL: This plugin must run first to handle your routes and start.ts file
+    tanstackStart(), 
     react(),
   ],
+  build: {
+    cssMinify: 'esbuild', // EXACT CORRECT PROPERTY: This completely switches the minifier to esbuild
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
