@@ -26,11 +26,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22 # Updated to Node 22 to bypass runner warnings
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install # Changed from 'npm ci' to handle missing lock files safely
 
       - name: Build Application
         run: npm run build
