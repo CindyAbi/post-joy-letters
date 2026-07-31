@@ -26,20 +26,26 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22 # Updated to Node 22 to bypass runner warnings
+          node-version: 22
 
       - name: Install Dependencies
-        run: npm install # Changed from 'npm ci' to handle missing lock files safely
+        run: npm install
 
       - name: Build Application
         run: npm run build
 
+      - name: Debug Output Folders
+        run: |
+          echo "=== ROOT DIRECTORY CONTENT ==="
+          ls -F
+          echo "=== VINXI OR OUTPUT FOLDERS ==="
+          ls -R .output .vinxi dist || true
+
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            .vinxi/build/client
-            dist
+          path: 'dist' # We will check the log if this folder errors out again
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
