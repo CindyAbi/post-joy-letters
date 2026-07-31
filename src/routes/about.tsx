@@ -21,19 +21,13 @@ function AboutPage() {
           About The Monthly Letter
         </h1>
         <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          I created Joyful Mail to bring my personal mission to life: building community, sparking creativity, and cultivating genuine human connection.
+          I created Joyful Mail to bring my personal mission to life: building community, sparking creativity, and cultivating genuine human connection. This journey is about deepening our relationships—becoming more mindful and more caring toward everyone around us, from close family and friends to everyday strangers.
         </p>
         <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          This journey is about deepening our relationships—becoming more mindful and deeply caring of everyone around us, from close family and friends to everyday strangers.
+          My heart is set on inspiring you to explore new creative activities, discover artistic expressions in ways you may never have expected, and—through that ripple effect—slow down and appreciate the community around you.
         </p>
         <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          My heart is set on inspiring you to explore new creative activities, discover unexpected artistic expressions, and slow down to appreciate the community around you.
-        </p>
-        <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          By fostering these bonds, we can step away from a digital-heavy world and move back into meaningful, physical spaces.
-        </p>
-        <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          My hope is that Joyful Mail brings joy to your mailbox each month, delivering a tangible little surprise and an original artistic creation you can truly look forward to.
+          By nurturing these bonds, we can step away from a digital‑heavy world and return to meaningful, physical spaces. My hope is that Joyful Mail brings joy to your mailbox each month, delivering a tangible letter, a small surprise, and an original artistic creation you’ll look forward to.
         </p>
       </div>
 
