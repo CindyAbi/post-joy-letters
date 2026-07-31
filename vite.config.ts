@@ -8,7 +8,9 @@ import path from "path";
 export default defineConfig({
   plugins: [
     tailwindcss(),
-    tanstackStart(),
+    tanstackStart({
+      spa: true // <-- ADD THIS OPTION RIGHT HERE!
+    }),
     react(),
   ],
   resolve: {
