@@ -21,13 +21,7 @@ function AboutPage() {
           About The Monthly Letter
         </h1>
         <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          I created Joyful Mail to bring my personal mission to life: building community, sparking creativity, and cultivating genuine human connection.
-        </p>
-        <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          This journey is truly about deepening our relationships—becoming more mindful and deeply caring of the people around us, from close family and friends to everyday strangers. My heart is set on inspiring you to explore new creative activities and discover artistic expression in ways you never expected.
-        </p>
-        <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-          By nurturing these bonds, we help our community step away from a digital-heavy world and move into meaningful, physical spaces. My hope is that Joyful Mail can bring joy to your mailbox each month, delivering a tangible little surprise as well as an original artistic creation you can truly look forward to.
+          I created Joyful Mail to bring my personal mission to life: building community, sparking creativity, and cultivating genuine human connection. This journey is about deepening our relationships—becoming more mindful and deeply caring of everyone around us, from close family and friends to everyday strangers. My heart is set on inspiring you to explore new creative activities, discover unexpected artistic expressions, and slow down to appreciate the community around you. By fostering these bonds, we can step away from a digital-heavy world and move back into meaningful, physical spaces. My hope is that Joyful Mail brings joy to your mailbox each month, delivering a tangible little surprise and an original artistic creation you can truly look forward to.
         </p>
       </div>
 
