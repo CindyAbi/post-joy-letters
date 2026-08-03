@@ -7,11 +7,7 @@ import path from "path";
 export default defineConfig({
   plugins: [
     tailwindcss(),
-    tanstackStart({
-      deployment: {
-        preset: "static" // <-- Pass an object defining static output
-      }
-    }),
+    tanstackStart(),
     react(),
   ],
   resolve: {
